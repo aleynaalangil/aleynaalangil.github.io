@@ -1,3 +1,18 @@
+<style>
+.fastfetch-container {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.fastfetch-container .kali-logo {
+  margin: 0;
+}
+.fastfetch-container .sys-info {
+  min-width: 240px;
+}
+</style>
+
 <div class="fastfetch-container">
 <pre class="kali-logo">
           ..,,:cc:,.
