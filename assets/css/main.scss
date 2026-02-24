@@ -1,63 +1,68 @@
+<div class="fastfetch-container">
+<pre class="kali-logo">
+          ..,,:cc:,.
+      ......'''';lxO.
+.....''''..........:ld;
+           ';;;:::;,..X,
+                 OXxoc:,,.   ...
+                 ,ONkc;;cokOdc',.
+                OMo          ':ddo.
+               dMc                :00;
+               OM.                 .:o.
+               ;Wd
+               ;XO,
+                ,dOOdlc;,..
+                    ..',;:cdOOd::,.
+                             .:d;';:;..
+                                d,  'i'
+                                l    ..
+                                .o
+                                 c
+</pre>
+
+<div class="sys-info">
+<span class="prompt">aleyna@kali</span><br>
+-----------------------<br>
+<b>OS:</b> Kali GNU/Linux Rolling x86_64<br>
+<b>Host:</b> Solana Devnet Node<br>
+<b>Kernel:</b> 6.12.13-amd64<br>
+<b>Shell:</b> zsh 5.9<br>
+<b>Identity:</b> Blockchain Backend Engineer<br>
+<b>Specialty:</b> Rust & Solana Architecture<br>
+<b>Status:</b> Developing for Mexico Release<br>
+</div>
+</div>
+
 ---
+
+## // Root Access: Aleyna
+
+I am a **Blockchain Backend Engineer** specializing in the Solana ecosystem. I build high-performance systems using Rust and focus on scalable decentralized architecture.
+
+### Active Processes
+* **Open Source:** Contributing to Rust-based tooling and CLI crates.
+* **Research:** Exploring advanced Solana smart contract optimizations.
+
 ---
-/* NO IMPORTS - This prevents the "File not found" build error */
 
-:root {
-  --kali-blue: #268bd2;
-  --kali-green: #27e421;
-  --bg-dark: #0f111a;
-}
+### <span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ ls -la ./projects/
 
-body {
-  background-color: var(--bg-dark) !important;
-  color: #d1d1d1 !important;
-  font-family: 'Source Code Pro', 'Fira Code', monospace !important;
-  padding: 40px;
-}
+<div class="terminal-box">
+<pre style="margin: 0; color: #d1d1d1;">
+total 32
+drwxr-xr-x  2 aleyna  dev  4096 Feb 25 .
+-rw-r--r--  1 aleyna  dev  2048 <span style="color: #268bd2;">solana_contract.rs</span>
+-rw-r--r--  1 aleyna  dev  1024 README.md
+</pre>
+</div>
 
-/* Flexbox for the side-by-side logo and info */
-.fastfetch-container {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: flex-start;
-  margin-bottom: 30px;
-}
+### <span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ netstat -tpln
 
-.kali-logo {
-  color: var(--kali-blue);
-  line-height: 1.1;
-  font-weight: bold;
-  margin: 0;
-  white-space: pre;
-}
+<div class="terminal-box">
+<pre style="margin: 0; color: #d1d1d1;">
+Proto Recv-Q Send-Q Local Address      State      
+tcp        0      0 127.0.0.1:<a href="https://github.com/aleynaalangil" style="color: #27e421; text-decoration: none;">GitHub</a>    ESTABLISHED
+</pre>
+</div>
 
-.sys-info {
-  line-height: 1.4;
-}
-
-.sys-info b { color: var(--kali-blue); }
-
-/* The Blinking Cursor */
-.prompt { color: var(--kali-green); font-weight: bold; }
-.path { color: var(--kali-blue); }
-.cursor {
-  display: inline-block;
-  width: 10px;
-  height: 1.2em;
-  background-color: var(--kali-green);
-  margin-left: 5px;
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
-.terminal-box {
-  background: #161925;
-  padding: 15px;
-  border: 1px solid #333;
-  margin: 20px 0;
-}
+<span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ <span class="cursor"></span>
