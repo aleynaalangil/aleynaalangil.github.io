@@ -1,3 +1,24 @@
+<pre class="kali-logo">
+          ..,,:cc:,.
+      ......'''';lxO.
+.....''''..........:ld;
+           ';;;:::;,..X,
+                 OXxoc:,,.   ...
+                 ,ONkc;;cokOdc',.
+                OMo          ':ddo.
+               dMc                :00;
+               OM.                 .:o.
+               ;Wd
+               ;XO,
+                ,dOOdlc;,..
+                    ..',;:cdOOd::,.
+                             .:d;';:;..
+                                d,  'i'
+                                l    ..
+                                .o
+                                 c
+</pre>
+
 # aleyna@kali:~$ boot --verbose
 
 <div class="terminal-block">
