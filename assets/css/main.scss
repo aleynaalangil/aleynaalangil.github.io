@@ -1,25 +1,39 @@
 ---
 ---
+/* No imports here to prevent build errors */
 
-/* Kali Linux Specific Colors */
 :root {
-  --primary-color: #268bd2; 
-  --terminal-green: #27e421; 
+  --primary-color: #268bd2; /* Kali Blue */
+  --terminal-green: #27e421; /* Prompt Green */
   --bg-color: #0f111a;
 }
 
 body {
-  background-color: var(--bg-color);
-  color: #d1d1d1;
-  font-family: 'Source Code Pro', 'Courier New', monospace;
+  background-color: var(--bg-color) !important;
+  color: #d1d1d1 !important;
+  font-family: 'Source Code Pro', 'Courier New', monospace !important;
 }
 
-/* Make links look like terminal commands */
+h1, h2, h3, h4 {
+  color: var(--primary-color) !important;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
 a {
-  color: var(--primary-color);
+  color: var(--terminal-green) !important;
+  text-decoration: none;
 }
 
-a:before {
-  content: "➜ ";
-  color: var(--terminal-green);
+a:hover {
+  text-decoration: underline;
+}
+
+.terminal-block {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  margin: 10px 0;
+  font-family: monospace;
 }
