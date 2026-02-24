@@ -1,39 +1,63 @@
 ---
 ---
-/* No imports here to prevent build errors */
+/* NO IMPORTS - This prevents the "File not found" build error */
 
 :root {
-  --primary-color: #268bd2; /* Kali Blue */
-  --terminal-green: #27e421; /* Prompt Green */
-  --bg-color: #0f111a;
+  --kali-blue: #268bd2;
+  --kali-green: #27e421;
+  --bg-dark: #0f111a;
 }
 
 body {
-  background-color: var(--bg-color) !important;
+  background-color: var(--bg-dark) !important;
   color: #d1d1d1 !important;
-  font-family: 'Source Code Pro', 'Courier New', monospace !important;
+  font-family: 'Source Code Pro', 'Fira Code', monospace !important;
+  padding: 40px;
 }
 
-h1, h2, h3, h4 {
-  color: var(--primary-color) !important;
-  border-bottom: 1px solid #333;
-  padding-bottom: 5px;
+/* Flexbox for the side-by-side logo and info */
+.fastfetch-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  margin-bottom: 30px;
 }
 
-a {
-  color: var(--terminal-green) !important;
-  text-decoration: none;
+.kali-logo {
+  color: var(--kali-blue);
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 0;
+  white-space: pre;
 }
 
-a:hover {
-  text-decoration: underline;
+.sys-info {
+  line-height: 1.4;
 }
 
-.terminal-block {
-  background-color: #1a1a1a;
+.sys-info b { color: var(--kali-blue); }
+
+/* The Blinking Cursor */
+.prompt { color: var(--kali-green); font-weight: bold; }
+.path { color: var(--kali-blue); }
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1.2em;
+  background-color: var(--kali-green);
+  margin-left: 5px;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.terminal-box {
+  background: #161925;
   padding: 15px;
-  border-radius: 5px;
   border: 1px solid #333;
-  margin: 10px 0;
-  font-family: monospace;
+  margin: 20px 0;
 }
