@@ -1,3 +1,7 @@
-theme: jekyll-theme-minimal
-title: aley's homepage
-description: Bookmark this to keep an eye on my project updates!
+remote_theme: b2a3e8/jekyll-theme-console
+title: aley@kali:~
+description: "Project updates and bookmarks."
+style: dark # Options: dark, hacker, nord
+header_pages:
+  - index.md
+  - about.md

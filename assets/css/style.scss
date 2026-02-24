@@ -2,23 +2,25 @@
 ---
 @import "{{ site.theme }}";
 
-// SimCity Aesthetic Customizations
+/* Kali Linux Specific Colors */
+:root {
+  --primary-color: #268bd2; /* Kali Blue */
+  --terminal-green: #27e421; /* Prompt Green */
+  --bg-color: #0f111a;
+}
+
 body {
-  background-color: #3b5998; /* Classic SimCity Blue */
-  font-family: "Courier New", Courier, monospace;
-  color: #ffffff;
+  background-color: var(--bg-color);
+  color: #d1d1d1;
+  font-family: 'Source Code Pro', 'Courier New', monospace;
 }
 
-.container-lg {
-  background: #d3d3d3; /* Light grey window style */
-  border: 4px solid #000;
-  box-shadow: 8px 8px 0px #555; /* Hard pixel shadow */
-  color: #222;
-  padding: 20px;
-}
-
+/* Make links look like terminal commands */
 a {
-  color: #0000ff;
-  text-decoration: none;
-  border-bottom: 2px solid #000;
+  color: var(--primary-color);
+}
+
+a:before {
+  content: "➜ ";
+  color: var(--terminal-green);
 }
