@@ -1,7 +1,6 @@
 remote_theme: b2a3e8/jekyll-theme-console
-title: aley@kali:~
+title: "aleyna@kali:~$"
 description: "Project updates and bookmarks."
-style: dark # Options: dark, hacker, nord
 header_pages:
   - index.md
   - about.md

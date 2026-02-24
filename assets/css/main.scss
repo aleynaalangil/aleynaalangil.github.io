@@ -1,11 +1,12 @@
 ---
 ---
-@import "terminal";
+/* Try importing without the name first, as the theme handles the base */
+@import "jekyll-theme-console";
 
 /* Kali Linux Specific Colors */
 :root {
-  --primary-color: #268bd2; /* Kali Blue */
-  --terminal-green: #27e421; /* Prompt Green */
+  --primary-color: #268bd2; 
+  --terminal-green: #27e421; 
   --bg-color: #0f111a;
 }
 
