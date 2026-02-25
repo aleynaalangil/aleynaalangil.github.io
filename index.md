@@ -1,4 +1,4 @@
-<table class="fastfetch-container" style="display: table !important; border: 0; border-collapse: collapse;">
+<table class="fastfetch-container" style="display: table !important; width: 100%; border: 0; border-collapse: collapse;">
 <tr>
 <td style="display: table-cell !important; vertical-align: top; padding: 0 24px 0 0;">
 <pre class="kali-logo" style="margin: 0;">
@@ -35,9 +35,8 @@
 <b>Specialty:</b> Rust & Solana Architecture<br>
 <b>Status:</b> Developing for Mexico Release<br>
 </div>
-</td>
-</tr>
-</table>
+
+<div style="height: 16px;"></div>
 
 ### <span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ ls -la ./projects/
 
@@ -48,3 +47,6 @@ total 32<br>
 </div>
 
 <span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ <span class="cursor"></span>
+</td>
+</tr>
+</table>
