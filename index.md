@@ -1,20 +1,5 @@
-<style>
-.fastfetch-container {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.fastfetch-container .kali-logo {
-  margin: 0;
-}
-.fastfetch-container .sys-info {
-  min-width: 240px;
-}
-</style>
-
-<div class="fastfetch-container">
-<pre class="kali-logo">
+<div class="fastfetch-container" style="display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap;">
+<pre class="kali-logo" style="margin: 0;">
           ..,,:cc:,.
       ......'''';lxO.
 .....''''..........:ld;
@@ -35,7 +20,7 @@
                                  c
 </pre>
 
-<div class="sys-info">
+<div class="sys-info" style="min-width: 240px;">
 <span class="prompt">aleyna@kali</span><br>
 -----------------------<br>
 <b>OS:</b> Kali GNU/Linux Rolling x86_64<br>
