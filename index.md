@@ -1,6 +1,6 @@
 <table class="fastfetch-container" style="display: table !important; width: 100%; border: 0; border-collapse: collapse;">
 <tr>
-<td style="display: table-cell !important; vertical-align: top; padding: 0 24px 0 0;">
+<td style="display: table-cell !important; vertical-align: top; padding: 0 40px 0 0;">
 <pre class="kali-logo" style="margin: 0;">
           ..,,:cc:,.
       ......'''';lxO.
@@ -37,6 +37,14 @@
 </div>
 
 <div style="height: 16px;"></div>
+
+## // Root Access: Aleyna
+
+I am a **Blockchain Backend Engineer** specializing in the Solana ecosystem. I build high-performance systems using Rust and focus on scalable decentralized architecture.
+
+### Active Processes
+* **Open Source:** Contributing to Rust-based tooling and CLI crates.
+* **Research:** Exploring advanced Solana smart contract optimizations.
 
 ### <span class="prompt">aleyna@kali</span>:<span class="path">~</span>$ ls -la ./projects/
 
