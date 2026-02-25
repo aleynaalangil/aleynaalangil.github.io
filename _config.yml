@@ -1,6 +1,20 @@
-remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: wemake-services/jekyll-theme-hackcss
 title: "aleyna@kali:~$"
-description: "Project updates and bookmarks."
-header_pages:
-  - index.md
-  - about.md
+description: "Blockchain backend engineer focused on Solana."
+theme_mode: markdown
+your_name: "Aleyna Alangil"
+navigation:
+  - text: Home
+    url: /
+  - text: GitHub
+    url: https://github.com/aleynaalangil
+projects:
+  - name: GitHub Profile
+    description: Pinned repositories, experiments, and Solana work.
+    link: https://github.com/aleynaalangil
+social:
+  - service: github
+    username: aleynaalangil
+    link: https://github.com/aleynaalangil
+plugins:
+  - jekyll-remote-theme
