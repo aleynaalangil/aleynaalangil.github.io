@@ -1,6 +1,4 @@
 remote_theme: wemake-services/jekyll-theme-hackcss
-title: "aleyna@kali:~$"
-description: "Blockchain backend engineer focused on Solana."
 theme_mode: dark
 your_name: "Aleyna Alangil"
 navigation:
@@ -11,10 +9,6 @@ navigation:
 projects:
   - name: GitHub Profile
     description: Pinned repositories, experiments, and Solana work.
-    link: https://github.com/aleynaalangil
-social:
-  - service: github
-    username: aleynaalangil
     link: https://github.com/aleynaalangil
 plugins:
   - jekyll-remote-theme
