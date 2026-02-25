@@ -1,6 +1,6 @@
-<table class="fastfetch-container" style="border: 0; border-collapse: collapse;">
+<table class="fastfetch-container" style="display: table !important; border: 0; border-collapse: collapse;">
 <tr>
-<td style="vertical-align: top; padding: 0 24px 0 0;">
+<td style="display: table-cell !important; vertical-align: top; padding: 0 24px 0 0;">
 <pre class="kali-logo" style="margin: 0;">
           ..,,:cc:,.
       ......'''';lxO.
@@ -22,7 +22,8 @@
                                  c
 </pre>
 
-<td style="vertical-align: top; padding: 0;">
+</td>
+<td style="display: table-cell !important; vertical-align: top; padding: 0;">
 <div class="sys-info" style="min-width: 240px;">
 <span class="prompt">aleyna@kali</span><br>
 -----------------------<br>
