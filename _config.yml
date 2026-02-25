@@ -1,7 +1,7 @@
 remote_theme: wemake-services/jekyll-theme-hackcss
 title: "aleyna@kali:~$"
 description: "Blockchain backend engineer focused on Solana."
-theme_mode: markdown
+theme_mode: dark
 your_name: "Aleyna Alangil"
 navigation:
   - text: Home
